@@ -9,6 +9,7 @@ Modal.setAppElement('#root');
 
 export function App() {
 
+
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
 
     function handleOpenNewTransactionModal() {
@@ -18,7 +19,6 @@ export function App() {
     function handleCloseNewTransactionModal() {
         setIsNewTransactionModalOpen(false);
     }
-
 
   return (
     <>
@@ -31,5 +31,6 @@ export function App() {
       <GlobalStyle />
     </>
   );
+  
 }
 
